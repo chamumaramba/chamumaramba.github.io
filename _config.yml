@@ -8,3 +8,11 @@ header_pages:
   - projects.html
   - contact.html
   - blog.html
+
+# Define universal defaults
+defaults:
+  - scope:
+      path: ""         
+      type: "pages"     
+    values:
+      layout: "default"
