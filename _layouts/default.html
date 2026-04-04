@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - My Website</title>
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about.html' | relative_url }}">About</a>
+      <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+      <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+      <a href="{{ '/blog.html' | relative_url }}">Blog</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <hr>
+    <p>&copy; 2026 Trust Maramba. All rights reserved.</p>
+    <p>
+      Contact: <a href="mailto:trust@example.com">trust@example.com</a>
+    </p>
+  </footer>
+
+</body>
+</html>
