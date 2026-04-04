@@ -1,6 +1,6 @@
 title: GitHub Pages Website
 description: Assignment 1 - Website created using Github pages and Jekyll
-theme: jekyll-theme-tactile
+theme: jekyll-theme-cayman
 
 header_pages:
   - index.md
