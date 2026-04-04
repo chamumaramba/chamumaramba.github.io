@@ -1,24 +1,41 @@
----
-layout: default
-title: Home
----
+<header>
+  <nav>
+    <a href="/">Home</a> | <a href="/about.html">About</a> |
+    <a href="/projects.html">Projects</a> |
+    <a href="/contact.html">Contact</a> |
+    <a href="/blog.html">Blog</a>
+  </nav>
+</header>
 
-# Welcome to My Website 👋
+<h1>Welcome to My Website</h1>
 
-This website was created using **GitHub Pages and Jekyll** as part of my assignment.
-
-## 🔍 About This Site
-- Built using Jekyll static site generator  
-- Hosted on GitHub Pages  
-- Contains multiple pages  
-
-## 📌 Navigation
-- [About](about.md)
-- [Projects](projects.md)
-- [Contact](contact.md)
-- [Blog](blog.md)
-
----
-
-## 🚀 Purpose
-The purpose of this website is to demonstrate how static websites can be created and deployed using GitHub.
+<section>
+  <h2>About this Site</h2>
+  <ul>
+    <li>Built using Jekyll static site generator</li>
+    <li>Hosted on GitHub Pages</li>
+    <li>Multiple pages demonstrating page navigation</li>
+  </ul>
+  <h3>Purpose</h3>
+  <p>The purpose of this website is to demonstrate how static websites can be created and deployed uang GitHub.</p>
+</section>
+<section>
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>GitHub pages for hosting the website</li>
+    <li>Jekyll static site Generator</li>
+    <li>HTML for the page structure</li>
+  </ul>
+</section>
+<footer>
+  <hr>
+  <p>&copy; 2026 Your Name. All rights reserved.</p>
+  <p>
+    Contact: <a href="mailto:trustmaramba@email.com">trustmaramba@email.com</a>
+  </p>
+  <p>
+    Follow me:
+    <a href="#">GitHub</a> |
+    <a href="#">LinkedIn</a>
+  </p>
+</footer>
