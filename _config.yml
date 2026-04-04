@@ -1,6 +1,6 @@
 title: GitHub Pages Website
 description: Assignment 1 - Website created using Github pages and Jekyll
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-merlot
 
 header_pages:
   - index.md
