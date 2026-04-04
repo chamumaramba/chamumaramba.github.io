@@ -1,6 +1,6 @@
 title: GitHub Pages Website
 description: Assignment 1 - Website created using Github pages and Jekyll
-theme: jekyll-theme-merlot
+theme: jekyll-theme-leap-day
 
 header_pages:
   - index.html
