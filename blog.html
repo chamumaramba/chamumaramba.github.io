@@ -1,5 +1,30 @@
 ---
 layout: default
-title: blog
+title: Blog
 ---
- <h1>Blog</h1>
+
+<h1>Blog</h1>
+
+<p>
+Welcome to my blog! This section contains posts created using Jekyll.
+Each post is written in Markdown and automatically organized and displayed here.
+</p>
+
+<h2>Latest Posts</h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+      <br>
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr>
+
+<p>
+More posts will be added as I continue learning and exploring GitHub Pages and Jekyll.
+</p>
