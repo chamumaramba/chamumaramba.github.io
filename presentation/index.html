@@ -1,1 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css"
+    />
+    <!-- Premium Theme (Moon) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/moon.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown>
+          <textarea data-template>
+    # Automated Testing
+    Laboratory 6
 
+    ---
+
+    ## The Multi-layered System
+    Our app consists of several layers.
+    (Scroll down for details)
+
+    --
+
+    ### Frontend
+    React + Vite
+
+    --
+
+    ### Backend
+    Strapi 5 Headless CMS
+
+    ---
+
+    ## The Test Pyramid
+    ![Test Pyramid](https://upload.wikimedia.org/wikipedia/commons/b/bb/Test_pyramid.png)
+
+    ---
+
+    ## Key Tools
+    - Vitest (Unit)
+    - Playwright (E2E)
+
+    ---
+
+    ## Conclusion
+    Testing ensures system integrity.
+  </textarea
+          >
+        </section>
+      </div>
+    </div>
+  </body>
+  <!-- Core JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.js"></script>
+
+  <!-- Markdown Plugin JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/markdown/markdown.min.js"></script>
+  <script>
+    Reveal.initialize({
+      // Enable the Markdown plugin
+      plugins: [RevealMarkdown],
+
+      // Optional: add navigation controls
+      controls: true,
+      progress: true,
+      hash: true,
+    });
+  </script>
+</html>
