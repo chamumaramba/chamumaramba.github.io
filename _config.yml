@@ -2,6 +2,16 @@ title: GitHub Pages Website
 description: Assignment 1 - Website created using Github pages and Jekyll
 theme: jekyll-theme-Slate
 
+---
+---
+
+Welcome to My Home Page
+
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
+
 header_pages:
   - index.html
   - about.html
